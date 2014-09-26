@@ -1,0 +1,15 @@
+/* cl.buildClusterer(data);
+    eval = new ClusterEvaluation();
+    eval.setClusterer(cl);
+    eval.evaluateClusterer(new Instances(data));
+    System.out.println("# of clusters: " + eval.getNumClusters());
+*/
+    /*
+    // density based
+    System.out.println("\n--> density (CV)");
+    cl   = new HierarchicalClusterer();
+    eval = new ClusterEvaluation();
+    eval.setClusterer(cl);
+//    eval.
+//    eval.crossValidateModel((DensityBasedClusterer) cl, data, 10, data.getRandomNumberGenerator(1));
+    System.out.println("# of clusters: " + eval.getNumClusters());*/
